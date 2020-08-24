@@ -1,0 +1,87 @@
+<view class="container">
+    <view class="header">
+        <view class="left">
+            <view class="child">
+                <view>余额</view>
+                <view class="fontColor">{{balance}}元</view>
+                <view class="recharge">充值</view>
+            </view>
+        </view>
+        <view class="middle">
+            <image src="../../images/icon/default_avatar_big.png"></image>
+            <view>{{username}}</view>
+        </view>
+        <view class="right">
+            <view class="child">
+                <view>积分</view>
+                <view class="fontColor">{{balance}}</view>
+                <view class="recharge">兑换</view>
+            </view>
+        </view>
+    </view>
+    <view class="litterIcon">
+        <i-cell-group>
+            <i-cell title="我的订单" value="查看全部订单" is-link url="/pages/dashboard/index">
+                <i-icon type="activity" size="20" color="#80848f" slot="icon" />
+            </i-cell>
+        </i-cell-group>
+        <i-grid i-class="gridBgc">
+            <i-grid-item i-class="gridItem">
+                <i-grid-icon>
+                    <image src="../../images/icons/waitPay.svg" />
+                </i-grid-icon>
+                <i-grid-label>待付款</i-grid-label>
+            </i-grid-item>
+            <i-grid-item i-class="gridItem">
+                <i-grid-icon>
+                    <image src="../../images/icons/waitSend.svg" />
+                </i-grid-icon>
+                <i-grid-label>待发货</i-grid-label>
+            </i-grid-item>
+            <i-grid-item i-class="gridItem">
+                <i-grid-icon>
+                    <image src="../../images/icons/waitAck.svg" />
+                </i-grid-icon>
+                <i-grid-label>待收货</i-grid-label>
+            </i-grid-item>
+            <i-grid-item i-class="gridItem">
+                <i-grid-icon>
+                    <image src="../../images/icons/rechange.svg" />
+                </i-grid-icon>
+                <i-grid-label>退换货</i-grid-label>
+            </i-grid-item>
+        </i-grid>
+    </view>
+    <view class="space"></view>
+    <view class="list">
+        <i-cell-group>
+            <i-cell title="领取优惠卷" is-link url="/pages/dashboard/index">
+                <i-icon type="coupons_fill" size="20" color="#80848f" slot="icon" />
+            </i-cell>
+            <i-cell title="我的优惠卷" is-link url="/pages/dashboard/index">
+                <i-icon type="coupons" size="20" color="#80848f" slot="icon" />
+            </i-cell>
+        </i-cell-group>
+        <view class="space"></view>
+        <i-cell-group>
+            <i-cell title="我的购物车" is-link url="/pages/dashboard/index">
+                <i-icon type="publishgoods_fill" size="20" color="#80848f" slot="icon" />
+            </i-cell>
+            <i-cell title="我的足迹" is-link url="/pages/dashboard/index">
+                <i-icon type="like" size="20" color="#80848f" slot="icon" />
+            </i-cell>
+        </i-cell-group>
+        <view class="space"></view>
+        <i-cell-group>
+            <i-cell title="充值记录" is-link url="/pages/dashboard/index">
+                <i-icon type="transaction_fill" size="20" color="#80848f" slot="icon" />
+            </i-cell>
+        </i-cell-group>
+        <view class="space"></view>
+        <i-cell-group>
+            <i-cell title="收货地址管理" is-link url="/pages/dashboard/index">
+                <i-icon type="coordinates" size="20" color="#80848f" slot="icon" />
+            </i-cell>
+        </i-cell-group>
+    </view>
+</view>
