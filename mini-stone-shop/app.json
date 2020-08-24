@@ -1,9 +1,9 @@
 {
   "pages":[
-    "pages/my-info/my-info",
     "pages/home/home",
     "pages/category/category",
-    "pages/cart/cart"
+    "pages/cart/cart" ,
+    "pages/my-info/my-info"
   ],
   "window":{
     "backgroundTextStyle":"light",
