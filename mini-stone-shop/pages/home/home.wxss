@@ -25,7 +25,8 @@
 .goods {
     display: flex;
     width: 100vw;
-    height: 200rpx;
+    height: 240rpx;
+    margin-bottom: 16rpx;
 }
 
 .goods view {
@@ -33,16 +34,33 @@
 }
 
 .left {
-    margin-left: 10rpx;
-    width: 32%;
+    margin-left: 30rpx;
+    width: 28%;
+    text-align: center;
+}
+
+.goodsImg {
+    width: 100%;
+    height: 140rpx;
+}
+
+.title {
+    font-size: 28rpx;
+}
+
+.price {
+    font-size: 28rpx;
+    color: #f40;
 }
 
 .right {
-    width: 32%;
-    margin-right: 10rpx;
+    width: 28%;
+    margin-right: 30rpx;
+    text-align: center;
 }
 
 .middle {
-    margin: 0 10rpx;
-    width: 32%;
+    margin: 0 30rpx;
+    width: 28%;
+    text-align: center;
 }

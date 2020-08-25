@@ -1,4 +1,8 @@
 {
-  "component": true,
-  "usingComponents": {}
+    "component": true,
+    "usingComponents": {
+        "i-input-number": "../../dist/input-number/index",
+        "i-radio-group": "../../dist/radio-group/index",
+        "i-radio": "../../dist/radio/index"
+    }
 }

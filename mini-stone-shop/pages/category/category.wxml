@@ -1,2 +1,7 @@
-<!--pages/category.wxml-->
-<text>pages/category.wxml</text>
+<!-- pages/category.wxml -->
+<view class="search">
+    <navigator url="/pages/search/search" class="input">
+        <image class="icon" src="/images/icon/search.png"></image>
+        <text class="txt">搜索, 共{{goodsCount}}款好味</text>
+    </navigator>
+</view>

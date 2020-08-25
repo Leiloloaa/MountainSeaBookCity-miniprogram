@@ -45,7 +45,7 @@ page {
     transform: translateY(-50%);
 }
 
-.child view{
+.child view {
     height: 40rpx;
     line-height: 40rpx;
 }
@@ -64,15 +64,7 @@ page {
     text-align: center;
 }
 
-.gridBgc {
-    background-color: #fff;
-}
-
-.gridItem {
-    /* border-right:1px solid red; */
-}
-
-.fontColor{
+.fontColor {
     color: rgb(254, 193, 48);
     font-weight: 600;
     font-size: 26rpx;

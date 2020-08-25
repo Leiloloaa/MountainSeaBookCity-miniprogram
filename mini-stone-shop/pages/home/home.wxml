@@ -9,9 +9,166 @@
             <image src="{{item.url}}" mode='aspectFill'></image>
         </swiper-item>
     </swiper>
+    <!-- <view class="space"></view> -->
+    <view class="litterIcon">
+        <i-grid i-class="gridBgc">
+            <i-grid-item>
+                <i-grid-icon>
+                    <image src="../../images/icons/waitPay.svg" />
+                </i-grid-icon>
+                <i-grid-label>文学类</i-grid-label>
+            </i-grid-item>
+            <i-grid-item>
+                <i-grid-icon>
+                    <image src="../../images/icons/waitSend.svg" />
+                </i-grid-icon>
+                <i-grid-label>小说类</i-grid-label>
+            </i-grid-item>
+            <i-grid-item>
+                <i-grid-icon>
+                    <image src="../../images/icons/waitAck.svg" />
+                </i-grid-icon>
+                <i-grid-label>科幻类</i-grid-label>
+            </i-grid-item>
+            <i-grid-item>
+                <i-grid-icon>
+                    <image src="../../images/icons/rechange.svg" />
+                </i-grid-icon>
+                <i-grid-label>益智类</i-grid-label>
+            </i-grid-item>
+            <i-grid-item>
+                <i-grid-icon>
+                    <image src="../../images/icons/rechange.svg" />
+                </i-grid-icon>
+                <i-grid-label>国学类</i-grid-label>
+            </i-grid-item>
+        </i-grid>
+    </view>
+    <view class="padding text-center">
+        <view class="padding-xl radius shadow-blur bg-red margin-top bg-img" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big91005.jpg);">
+            <view>文学类</view>
+        </view>
+    </view>
     <view class="goods">
-        <view class="left">1</view>
-        <view class="middle">2</view>
-        <view class="right">3</view>
+        <view class="left">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="middle">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="right">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+    </view>
+    <view class="goods">
+        <view class="left">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="middle">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="right">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+    </view>
+    <view class="padding text-center">
+        <view class="padding-xl radius shadow-blur bg-red margin-top bg-img" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big91005.jpg);">
+            <view>小说类</view>
+        </view>
+    </view>
+    <view class="goods">
+        <view class="left">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="middle">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="right">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+    </view>
+    <view class="padding text-center">
+        <view class="padding-xl radius shadow-blur bg-red margin-top bg-img" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big91005.jpg);">
+            <view>科幻类</view>
+        </view>
+    </view>
+    <view class="goods">
+        <view class="left">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="middle">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="right">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+    </view>
+    <view class="padding text-center">
+        <view class="padding-xl radius shadow-blur bg-red margin-top bg-img" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big91005.jpg);">
+            <view>益智类</view>
+        </view>
+    </view>
+    <view class="goods">
+        <view class="left">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="middle">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="right">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+    </view>
+    <view class="padding text-center">
+        <view class="padding-xl radius shadow-blur bg-red margin-top bg-img" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big91005.jpg);">
+            <view>国学类</view>
+        </view>
+    </view>
+    <view class="goods">
+        <view class="left">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="middle">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
+        <view class="right">
+            <image src="/images/icons/rechange.svg" class="goodsImg" />
+            <view class="title">《岛上书店》</view>
+            <view class="price">10.00元</view>
+        </view>
     </view>
 </view>

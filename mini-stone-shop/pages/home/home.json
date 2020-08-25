@@ -1,5 +1,10 @@
 {
-  "component": true,
-  "usingComponents": {},
-  "navigationBarTitleText": "山海书城"
+    "component": true,
+    "usingComponents": {
+        "i-grid": "../../dist/grid/index",
+        "i-grid-item": "../../dist/grid-item/index",
+        "i-grid-icon": "../../dist/grid-icon/index",
+        "i-grid-label": "../../dist/grid-label/index"
+    },
+    "navigationBarTitleText": "山海书城"
 }

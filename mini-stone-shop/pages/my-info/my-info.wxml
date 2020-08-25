@@ -26,25 +26,25 @@
             </i-cell>
         </i-cell-group>
         <i-grid i-class="gridBgc">
-            <i-grid-item i-class="gridItem">
+            <i-grid-item>
                 <i-grid-icon>
                     <image src="../../images/icons/waitPay.svg" />
                 </i-grid-icon>
                 <i-grid-label>待付款</i-grid-label>
             </i-grid-item>
-            <i-grid-item i-class="gridItem">
+            <i-grid-item>
                 <i-grid-icon>
                     <image src="../../images/icons/waitSend.svg" />
                 </i-grid-icon>
                 <i-grid-label>待发货</i-grid-label>
             </i-grid-item>
-            <i-grid-item i-class="gridItem">
+            <i-grid-item>
                 <i-grid-icon>
                     <image src="../../images/icons/waitAck.svg" />
                 </i-grid-icon>
                 <i-grid-label>待收货</i-grid-label>
             </i-grid-item>
-            <i-grid-item i-class="gridItem">
+            <i-grid-item>
                 <i-grid-icon>
                     <image src="../../images/icons/rechange.svg" />
                 </i-grid-icon>
