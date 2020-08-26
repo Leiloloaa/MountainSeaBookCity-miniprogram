@@ -1,9 +1,9 @@
 <!-- pages/cart/home.wxml -->
 <view>
-    <view class="search">
+    <!-- <view class="search">
         <image class="icon" src="/images/icon/search.png"></image>
         <text class="txt">搜索, 共{{goodsCount}}款好物</text>
-    </view>
+    </view> -->
     <swiper class="screen-swiper square-dot bg-white" indicator-dots="true" circular="true" autoplay="true" interval="2000" duration="500">
         <swiper-item wx:for="{{swiperList}}" wx:key="index">
             <image src="{{item.url}}" mode='aspectFill'></image>

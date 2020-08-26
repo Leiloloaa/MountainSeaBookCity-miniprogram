@@ -1,7 +1,14 @@
 <!-- pages/category.wxml -->
-<view class="search">
+<!-- <view class="search">
     <navigator url="/pages/search/search" class="input">
         <image class="icon" src="/images/icon/search.png"></image>
         <text class="txt">搜索, 共{{goodsCount}}款好味</text>
     </navigator>
+</view> -->
+<canvas canvas-id="canvas" style="width:{{imageWidth}}px;height:{{imageHeight}}px;position:absolute;top:200%"></canvas>
+<view class="preImg">
+    <image src="{{ img }}" mode="aspectFill" bindtap="previewImg" />
+</view>
+<view class="padding flex flex-wrap justify-between align-center bg-white">
+    <button class="cu-btn round lg" bindtap="chooseImg">拍照</button>
 </view>

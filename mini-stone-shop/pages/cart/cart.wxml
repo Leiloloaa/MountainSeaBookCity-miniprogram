@@ -1,5 +1,5 @@
 <view class="padding">
-    <view class="padding-xl radius shadow shadow-lg bg-white margin-top goodsCard">
+    <view class="padding radius shadow shadow-lg bg-white margin-top goodsCard">
         <view class="goodsImg">
             <image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big84000.jpg" mode="aspectFill"></image>
         </view>
@@ -13,7 +13,7 @@
         </view>
         <view class="btn">
             <i-panel>
-                <view style="padding:0 16px;margin-top:42px;">
+                <view style="padding:0 8px;margin-top:42px;">
                     <i-input-number value="{{ value1 }}" min="0" max="100" bindchange="handleChange1" />
                 </view>
             </i-panel>

@@ -34,3 +34,19 @@
     padding-left: 10rpx;
     font-size: 28rpx;
 }
+
+.preImg {
+    width: 260rpx;
+    height: 300rpx;
+    border: 1px solid red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.preImg image {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
